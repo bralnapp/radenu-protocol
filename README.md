@@ -2,7 +2,7 @@
 ---
 
 #### Radenu is a decentralized, non-custodial P2P remittance payment protocol. Radenu implements a unique, on-chain escrow P2P payment solution analogous to commonly understood P2P applications like Binance, but transactions are completely pseudonymous. 
-Web: Visit [https://radenu.vercel.app](https://radenu.vercel.app/). 
+Web: Visit [https://radenu-protocol.vercel.app/](https://radenu-protocol.vercel.app/). 
 
 ---
 
