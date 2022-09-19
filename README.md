@@ -1,27 +1,13 @@
-# Radenu
+# Sample Hardhat Project
 
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
 
-> Radenu is a decentralized peer to peer remittance protocol. 
+Try running some of the following tasks:
 
-### Install
-```bash
-git clone https://github.com/bralnapp/peer-to-peer.git
-cd peer-to-peer
-<!-- Copy .env.example to a new .env.local file on peer-to-peer root folder -->
-yarn install
-
-#Get your development server running.
-yarn start
+```shell
+npx hardhat help
+npx hardhat test
+REPORT_GAS=true npx hardhat test
+npx hardhat node
+npx hardhat run scripts/deploy.js
 ```
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐ if you like this project!
-
-
