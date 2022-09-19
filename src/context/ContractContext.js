@@ -1,7 +1,8 @@
 import { createContext, useContext, useEffect, useState } from 'react'
 import toast from 'react-hot-toast';
-import { ethereum, web3 } from 'src/config/coinbase.config';
+// import { ethereum, web3 } from 'src/config/coinbase.config';
 import { initialState } from 'src/utils/helpers/store.helpers';
+import Web3 from 'web3';
 
 import {
     useGetPersistedStore,
@@ -9,6 +10,9 @@ import {
 } from "../utils/helpers/store.helpers";
 
 const ContractContext = createContext()
+
+const { ethereum } = window;
+const web3 = new Web3(ethereum);
 
 
 const ContractContextProvider = ({ children }) => {
