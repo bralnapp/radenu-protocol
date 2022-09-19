@@ -66,7 +66,7 @@ const OrderPage = () => {
                                 <div>Trade</div>
                             </div>
                             {/* table body */}
-                            <div className="h-[400px] overflow-y-auto">
+                            <div className="h-[450px] overflow-y-auto">
                                 {
                                     filterOrderList?.map((item, index) => (
                                         <div key={index} className="grid grid-cols-5 text-[#323131] capitalize text-xs md:text-base md:leading-[18px] py-[15px] border-b border-[#F0F0F0] lg:w-full items-center">
