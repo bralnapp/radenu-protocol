@@ -4,7 +4,7 @@ import Web3 from 'web3'
 
 const APP_NAME = 'Radenu'
 const APP_LOGO_URL = 'https://ik.imagekit.io/braln/logo-transparent_9a46VRS7N.svg'
-const DEFAULT_ETH_JSONRPC_URL = `https://mainnet.infura.io/v3/${process.env.INFURA_API_KEY}`;
+const DEFAULT_ETH_JSONRPC_URL = `https://eth-rinkeby.alchemyapi.io/v2/${process.env.REACT_APP_ALCHEMY_API_KEY}`;
 const DEFAULT_CHAIN_ID = 1
 
 // Initialize Coinbase Wallet SDK
