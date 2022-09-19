@@ -1,7 +1,7 @@
 import { ethers } from "ethers";
-import { ethereum } from "src/config/coinbase.config";
 import { RadenuContractAbi, RadenuContractAddress, RadenuTokenContractAbi, RadenuTokenContractAddress } from "../constants";
 
+const { ethereum } = window;
 const initRadenuContract = async () => {
     try {
         if (!ethereum) return "You must install Coinbase wallet address, a virtual Ethereum wallet, in your browser."
