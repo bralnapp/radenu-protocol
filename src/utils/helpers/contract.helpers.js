@@ -45,8 +45,6 @@ const initRadenuTokenContract = async () => {
 }
 
 
-
-
 export {
     initRadenuContract,
     initRadenuTokenContract,
