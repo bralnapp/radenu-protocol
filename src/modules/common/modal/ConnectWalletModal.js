@@ -4,7 +4,7 @@ import { Fragment } from "react"
 import { useContractContext } from "src/context/ContractContext"
 import Button from "../components/Button"
 
-import Coinbase from 'src/assests/coinbase.png'
+import Metamask from 'src/assests/metamask.png'
 import ArrowLeft from 'src/assests/arrow-left.png'
 
 const ConnectWalletModal = ({ setShowConnectWalletModal, showConnectWalletModal }) => {
@@ -49,10 +49,10 @@ const ConnectWalletModal = ({ setShowConnectWalletModal, showConnectWalletModal 
                         </Dialog.Title>
                         <section className="my-6">
                             <div className="flex space-x-2 mb-5 items-center">
-                                <img src={Coinbase} alt="" className="h-8 w-8" />
-                                <p className="font-bold text-sm text-[#475467]">Coinbase</p>
+                                <img src={Metamask} alt="" className="h-8 w-8" />
+                                <p className="font-bold text-sm text-[#475467]">Metamask</p>
                             </div>
-                            <p className="mb-5 text-sm text-[#737374]">You'll need to install <strong>Coinbase</strong> wallet to continue. Once you have it installed, go ahead and refresh the page.</p>
+                            <p className="mb-5 text-sm text-[#737374]">You'll need to install <strong>Metamask</strong> wallet to continue. Once you have it installed, go ahead and refresh the page.</p>
                             <div className="flex items-center justify-between">
                                 <button onClick={handleClose} className="text-[#1C144C] font-medium text-base leading-[18px] md:text-xl">Back</button>
                                 <Button onClick={handleConnectWallet} title="connect" className="w-20 h-8 rounded-2xl md:w-[125px] md:h-12 md:rounded-[32px] md:text-lg" />
